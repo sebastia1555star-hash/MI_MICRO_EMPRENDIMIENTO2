@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Mi Minisitio</title>
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="nike-dark-theme">
+
+    <header class="header-main">
+        <div class="container header-flex">
+            <div class="logo">
+                <span class="logo-text">Mi Minisitio</span>
+                <span class="logo-sub">Informatica & Emprendimiento</span>
+            </div>
+            <nav class="nav">
+                <a href="index.html">Inicio</a>
+                <a href="catalogo.html">Catálogo</a>
+                <a href="servicio.html">Servicios</a>
+                <a href="contacto.html" class="active">Contacto</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contact-container">
+        <div class="contact-grid">
+            <div class="contact-info">
+                <h2>Contáctanos</h2>
+                <p class="subtitle">¿Tienes dudas sobre nuestros llaveros 3D o necesitas un pedido personalizado para tu curso?</p>
+                
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>sebastia1555star@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Unidad Educativa "Gonzalo Escudero"</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-users"></i>
+                    <span>2do Informática "B"</span>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <span>Lunes a Viernes: 07:00 - 12:50</span>
+                </div>
+            </div>
+
+            <div class="contact-form-box">
+                <form id="orderForm">
+                    <div class="input-group">
+                        <label>Nombre completo</label>
+                        <input type="text" placeholder="Ej. Juan Pérez" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Correo electrónico</label>
+                        <input type="email" placeholder="tu@correo.com" required>
+                    </div>
+                    <div class="input-group">
+                        <label>Producto de interés</label>
+                        <select id="productSelect">
+                            <option value="langosta">Llavero Langosta</option>
+                            <option value="ardilla">Llavero Ardilla</option>
+                            <option value="otro">Otro / Personalizado</option>
+                        </select>
+                    </div>
+                    <div class="input-group">
+                        <label>Mensaje o Pedido</label>
+                        <textarea rows="4" placeholder="Cuéntanos cuántos necesitas..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-send">Enviar pedido</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-simple">
+        <p>&copy; 2026 Equipo de Gestión de Ventas - Proyecto Escolar</p>
+    </footer>
+
+    <script src="js/contacto.js"></script>
+</body>
+</html>
