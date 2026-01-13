@@ -1,0 +1,60 @@
+/* RESET Y BASE DARK */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body.nike-dark-theme { background-color: #000; color: #fff; font-family: 'Arial', sans-serif; }
+
+.container { max-width: 1200px; margin: 0 auto; width: 90%; }
+
+/* HEADER (Igual a productos) */
+.header-main { background: #000; border-bottom: 1px solid #222; padding: 15px 0; }
+.header-flex { display: flex; justify-content: space-between; align-items: center; width: 90%; margin: 0 auto; }
+.logo-text { display: block; font-size: 20px; font-weight: bold; }
+.logo-sub { color: #ff9900; font-size: 11px; }
+.nav a { color: #fff; text-decoration: none; margin-left: 20px; font-size: 14px; }
+.nav a.active { color: #ff9900; }
+
+/* LAYOUT CONTACTO */
+.contact-container { max-width: 1000px; margin: 60px auto; padding: 20px; }
+.contact-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 40px; background: #0a0a0a; border: 1px solid #222; border-radius: 15px; overflow: hidden; }
+
+/* INFORMACIÓN IZQUIERDA */
+.contact-info { padding: 40px; background: #111; }
+.contact-info h2 { font-size: 32px; margin-bottom: 20px; color: #fff; }
+.subtitle { color: #888; margin-bottom: 30px; line-height: 1.5; }
+.info-item { display: flex; align-items: center; gap: 15px; margin-bottom: 20px; color: #ccc; }
+.info-item i { color: #ff9900; font-size: 18px; width: 25px; }
+
+/* FORMULARIO DERECHA */
+.contact-form-box { padding: 40px; }
+.input-group { margin-bottom: 20px; }
+.input-group label { display: block; font-size: 13px; color: #fff; margin-bottom: 8px; font-weight: bold; }
+
+/* CAMPOS OSCUROS */
+.input-group input, 
+.input-group select, 
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    background: #000;
+    border: 1px solid #333;
+    color: #fff;
+    border-radius: 6px;
+    outline: none;
+}
+.input-group input:focus, .input-group select:focus { border-color: #ff9900; }
+
+/* BOTÓN ENVIAR (ESTILO AMAZON/NIKE) */
+.btn-send {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(to bottom, #f7dfa5, #f0c14b); /* Estilo botón Amazon */
+    border: 1px solid #a88734;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.btn-send:hover { background: #f0c14b; transform: scale(1.01); }
+
+/* FOOTER */
+.footer-simple { text-align: center; padding: 40px; color: #444; font-size: 12px; }
